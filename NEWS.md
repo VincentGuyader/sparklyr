@@ -1,5 +1,8 @@
 # Sparklyr 0.6.0 (UNRELEASED)
 
+- Support for `dplyr 0.6` which among many improvements, increases
+  performance in some queries by making use of a new query optimizer.
+
 - `sample_frac` takes a fraction instead of a percent to match `dplyr`.
 
 - Improved performance of `spark_read_csv` reading remote data when

@@ -28,7 +28,7 @@ test_that("the implementation of 'filter' functions as expected", {
       filter(`Petal.Length` == 1.4) %>%
       filter(`Petal.Width` == 0.2) %>%
       select(`Species`),
-    iris %>%
+    iris_tbl %>%
       filter(`Sepal.Length` == 5.1) %>%
       filter(`Sepal.Width` == 3.5) %>%
       filter(`Petal.Length` == 1.4) %>%
